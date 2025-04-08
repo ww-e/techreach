@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className="flex items-center gap-2">
           <div className="mr-4 flex">
           <Link to="/" className="flex items-center space-x-2">
-  <span className="font-bold text-xl text-tech-blue mr-10">TechBridge</span>
+  <span className="font-bold text-xl text-tech-blue mr-10">TechReach</span>
 </Link>
           </div>
           <nav className="hidden md:flex items-center gap-6 text-sm">

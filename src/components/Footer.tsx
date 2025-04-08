@@ -11,7 +11,7 @@ const Footer = () => {
               <div className="h-8 w-8 bg-yellow-600 rounded-md flex items-center justify-center">
                 <span className="font-bold text-white">TB</span>
               </div>
-              <span className="font-bold text-xl text-tech-blue">TechBridge</span>
+              <span className="font-bold text-xl text-tech-blue">TechReach</span>
             </Link>
             <p className="text-tech-gray mb-4 max-w-xs">
               Building bridges between tech enthusiasts, learners, and industry professionals.
