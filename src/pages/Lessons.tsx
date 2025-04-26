@@ -192,7 +192,7 @@ const LessonsPage = () => {
                 <p className="text-muted-foreground text-lg mb-6">{activeLesson.description}</p>
                 <div className="bg-muted/50 p-4 rounded-lg border border-border">
                   <p className="text-muted-foreground text-base">
-                    This lesson is available for virtual instruction. Contact us to schedule a session.
+                    This lesson is available for virtual instruction. Register for a class using our lesson sign up form.
                   </p>
                 </div>
               </CardContent>
