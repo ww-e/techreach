@@ -46,9 +46,21 @@ const HeroSection = () => {
               className="border-2 border-[#ecc719] bg-transparent text-tech-blue hover:bg-[#ecc719]/20 text-lg py-6 px-8 rounded-md accessible-focus large-touch-target"
               aria-label="Join our volunteer team"
             >
+              
               <Link to="/join">
                 Join Our Team
               </Link>
+            </Button>
+            <Button
+              asChild
+              variant="outline"
+              size="lg"
+              className="border-2 border-[#ecc719] bg-transparent text-tech-blue hover:bg-[#ecc719]/20 text-lg py-6 px-8 rounded-md accessible-focus large-touch-target"
+              aria-label="Sign up for Lessons"
+              >
+              <a href="https://form.jotform.com/251145559793063" target="_blank" rel="noopener noreferrer">
+                Lesson Sign Up
+                </a>
             </Button>
           </div>
         </div>
