@@ -27,6 +27,9 @@ const Navbar = () => {
             <Link to="/programs" className="font-medium text-tech-gray transition-colors hover:text-yellow-600">
               Programs
             </Link>
+            <Link to="https://form.jotform.com/251145559793063" className="font-medium text-tech-gray transition-colors hover:text-yellow-600">
+              Lesson Sign Up
+            </Link>
             <Link to="/team" className="font-medium text-tech-gray transition-colors hover:text-yellow-600">
               Team
             </Link>
