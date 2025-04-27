@@ -28,12 +28,17 @@ const TeamPage = () => {
               </div>
               <h3 className="text-xl font-bold text-tech-blue mb-2 text-center">Wisdom Enendu</h3>
               <p className="text-muted-foreground text-center">Founder and President</p>
+              {/* Description section */}
+              <p className="text-gray-700 text-center mt-4">
+              I am a junior from Augusta, Georgia in the US. My tech interests lie in coding, particularly web development. I started this project because I saw a need to help seniors bridge the digital divide. Technology is such an important tool, and I truly believe we can make a huge impact by teaching seniors these essential skills to give them confidence to navigate digital tools independently.
+              </p>
             </div>
+
             
             <div className="bg-white p-8 rounded-lg shadow-md border-2 border-[#ecc719]">
               <div className="w-24 h-24 bg-tech-blue rounded-full mx-auto mb-4 flex items-center justify-center">
                 <span className="text-2xl font-bold text-[#ecc719]">HA</span>
-              </div>
+              </dc
               <h3 className="text-xl font-bold text-tech-blue mb-2 text-center">Harsha</h3>
               <p className="text-muted-foreground text-center">Director of Public Relations</p>
             </div>
