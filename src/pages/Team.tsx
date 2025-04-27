@@ -30,7 +30,7 @@ const TeamPage = () => {
               <p className="text-muted-foreground text-center">Founder and President</p>
               {/* Description section */}
               <p className="text-gray-700 text-center mt-4">
-             Hello! I am a junior from Augusta, Georgia in the US. My tech interests lie in coding, particularly web development. I started this project because I saw a need to help seniors bridge the digital divide. Technology is such an important tool, and I truly believe we can make a huge impact by teaching seniors these essential skills to give them confidence to navigate digital tools independently.
+             Hello! I am a junior from Augusta, Georgia in the US and I attend Davidson Fine Arts. I started this project because I saw a need to help seniors bridge the digital divide. Technology is such an important tool, and I truly believe we can make a huge impact by teaching seniors these essential skills to give them confidence to navigate digital tools independently.
               </p>
             </div>
 
