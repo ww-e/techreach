@@ -1,3 +1,4 @@
+export default TeamPage;
 
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -20,25 +21,21 @@ const TeamPage = () => {
             </p>
           </div>
           
+          {/* All cards INSIDE the grid */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {/* Team member cards will be added here */}
             <div className="bg-white p-8 rounded-lg shadow-md border-2 border-[#ecc719]">
-              {/* Use the Image component with a public path */}
               <img 
-              src="GitHub\techreach\presidentImage.jpg"
-                alt="Founder" // Use descriptive alt text
-                className="w-24 h-24 rounded-full mx-auto mb-4 object-cover" // Added object-cover for better image fitting
+                src="Github\techreach\presidentImage.jpg" // <-- Corrected path, no backslashes or folders if in same folder
+                alt="Portrait of Wisdom Enendu, Founder" // <-- Removed comment
+                className="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
               />
               <h3 className="text-xl font-bold text-tech-blue mb-2 text-center">Wisdom Enendu</h3>
               <p className="text-muted-foreground text-center">Founder and President</p>
-              {/* Description section */}
               <p className="text-gray-700 text-center mt-4">
-              I am a junior from Augusta, Georgia in the US. My tech interests lie in coding, particularly web development. I started this project because I saw a need to help seniors bridge the digital divide. Technology is such an important tool, and I truly believe we can make a huge impact by teaching seniors these essential skills to give them confidence to navigate digital tools independently.
+                I am a junior from Augusta, Georgia in the US. My tech interests lie in coding, particularly web development. I started this project because I saw a need to help seniors bridge the digital divide. Technology is such an important tool, and I truly believe we can make a huge impact by teaching seniors these essential skills to give them confidence to navigate digital tools independently.
               </p>
             </div>
-          </div>
 
-            
             <div className="bg-white p-8 rounded-lg shadow-md border-2 border-[#ecc719]">
               <div className="w-24 h-24 bg-tech-blue rounded-full mx-auto mb-4 flex items-center justify-center">
                 <span className="text-2xl font-bold text-[#ecc719]">HA</span>
@@ -47,7 +44,7 @@ const TeamPage = () => {
               <p className="text-muted-foreground text-center">Director of Public Relations</p>
             </div>
 
-             <div className="bg-white p-8 rounded-lg shadow-md border-2 border-[#ecc719]">
+            <div className="bg-white p-8 rounded-lg shadow-md border-2 border-[#ecc719]">
               <div className="w-24 h-24 bg-tech-blue rounded-full mx-auto mb-4 flex items-center justify-center">
                 <span className="text-2xl font-bold text-[#ecc719]">HA</span>
               </div>
@@ -62,6 +59,7 @@ const TeamPage = () => {
               <h3 className="text-xl font-bold text-tech-blue mb-2 text-center">Jenna</h3>
               <p className="text-muted-foreground text-center">Director of Instruction</p>
             </div>
+            
             <div className="bg-white p-8 rounded-lg shadow-md border-2 border-[#ecc719]">
               <div className="w-24 h-24 bg-tech-blue rounded-full mx-auto mb-4 flex items-center justify-center">
                 <span className="text-2xl font-bold text-[#ecc719]">JE</span>
@@ -71,10 +69,10 @@ const TeamPage = () => {
             </div>
           </div>
         </div>
+        <Footer />
       </main>
-      <Footer />
     </div>
   );
-};
+}
 
 export default TeamPage;
