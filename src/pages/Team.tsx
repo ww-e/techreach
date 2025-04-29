@@ -1,5 +1,3 @@
-export default TeamPage;
-
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 
@@ -25,8 +23,8 @@ const TeamPage = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-lg shadow-md border-2 border-[#ecc719]">
               <img 
-                src="GitHub/techreach/presidentImage.jpg" // <-- Corrected path, no backslashes or folders if in same folder
-                alt="Portrait of Wisdom Enendu, Founder" // <-- Removed comment
+                src="GitHub/techreach/presidentImage.jpg" 
+                alt="Founder" 
                 className="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
               />
               <h3 className="text-xl font-bold text-tech-blue mb-2 text-center">Wisdom Enendu</h3>
