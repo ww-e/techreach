@@ -25,7 +25,7 @@ const TeamPage = () => {
             <div className="bg-white p-8 rounded-lg shadow-md border-2 border-[#ecc719]">
               {/* Use the Image component with a public path */}
               <img 
-              src="/President Image.jpg" // Replace with the actual path relative to the public directory
+              src="President Image.jpg" // Replace with the actual path relative to the public directory
                 alt="Founder" // Use descriptive alt text
                 className="w-24 h-24 rounded-full mx-auto mb-4 object-cover" // Added object-cover for better image fitting
               />
