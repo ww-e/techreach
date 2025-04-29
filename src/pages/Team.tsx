@@ -25,7 +25,7 @@ const TeamPage = () => {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white p-8 rounded-lg shadow-md border-2 border-[#ecc719]">
               <img 
-                src="Github\techreach\presidentImage.jpg" // <-- Corrected path, no backslashes or folders if in same folder
+                src="GitHub\techreach\presidentImage.jpg" // <-- Corrected path, no backslashes or folders if in same folder
                 alt="Portrait of Wisdom Enendu, Founder" // <-- Removed comment
                 className="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
               />
