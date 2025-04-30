@@ -48,7 +48,7 @@ const Navbar = () => {
               Contact
             </Button>
             </a>
-            <a href = "https://docs.google.com/forms/d/e/1FAIpQLSekIPo5lawREN-tN-san_5Xdtyi9w3iX6_AKaEt0NnaXskYmA/viewform" className="flex items-center">
+            <a href = "https://form.jotform.com/251196010777053" className="flex items-center">
             <Button className="bg-yellow-600 hover:bg-yellow-700 text-white">
               Join Now
             </Button>
